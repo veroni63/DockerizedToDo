@@ -1,0 +1,22 @@
+### Test Get website
+GET http://localhost:6363
+
+### Test for dashboard
+
+GET http://localhost:6363/dashboard
+    
+### Test for data
+
+GET http://localhost:6363/api/data
+
+### Test for Adding new user 
+POST http://localhost:6363/api/data/
+Content-Type: application/json
+
+{
+    "name": "ohm"
+}
+
+### Test for delete
+DELETE http://localhost:6363/api/data
+
